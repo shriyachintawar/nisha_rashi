@@ -23,6 +23,7 @@ class Form{
          this. button.hide();
           player.name=this.input.value();
           playerCount+=1
+          player.index = playerCount;
           console.log(playerCount)
           player.update()
           player.updateCount(playerCount)

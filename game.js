@@ -47,7 +47,7 @@ class Game{
         if(keyIsDown(UP_ARROW)&& player.index !== null){
             player.distance +=50
             player.update();
-            console.log("rashi");
+         
         }
     }
 }
